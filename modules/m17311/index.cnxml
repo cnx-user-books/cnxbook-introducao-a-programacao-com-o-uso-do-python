@@ -1,0 +1,43 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Os três pilares da Informática</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>49e90087-7217-43f9-960a-c2efd775d63b</md:uuid>
+</metadata>
+  <content>
+    <para id="id2253696">A informática, fortemente associada com a idéia de modernidade e de
+contemporaneidade, possui suas raízes fincadas em um tempo muito
+longínquo, praticamente no início da civilizações. Ela
+não é um fruto isolado saído de alguma cabeça privilegiada,
+apesar de muitas delas terem contribuído enormente para a sua
+evolução: é um elo na longa cadeia de conhecimento e tecnologia
+que a humanidade produziu, produz e produzirá em sua jornada no planeta.</para>
+    <para id="id2253709">São três itens que compõem a informática: a automação,
+o cálculo e a teoria de informação.</para>
+    <section id="cid1">
+      <title>Automação</title>
+      <para id="id2253726">Certa vez, durante uma caçada, um ser humano vislumbrou a possibilidade de
+capturar mais de um animal por vez e “estar” em dois ou mais lugares ao mesmo tempo: ele criou a armadilha. É preciso
+cavar uma ou mais crateras no chão, todas a uma profundidade suficiente
+para que um animal (ou outro ser humano... )não consiga escapar, e
+cobri-las com folhas.</para>
+      <para id="id2253741">Surgiu a primeira máquina automática.</para>
+    </section>
+    <section id="cid2">
+      <title>Cálculo</title>
+      <para id="id2253753">De acordo com alguns autores, a chamada escrita cuneiforme utilizada pelos
+babilônios servia, entre coisas, para anotar a produção
+agrícola ou pecuária da população e cobrar os impostos devidos.</para>
+      <para id="id2253763">Blaise Pascal desenvolveu uma calculadora para facilitar a vidade de seu pai,
+um cobrador de impostos.</para>
+      <para id="id2253768">Apesar de inevitáveis, tal como a morte, nem tudo são impostos. O
+cálculo permitiu prever as cheias do Nilo e estabelecer um ângulo reto
+para as construções, como mostrou mais tarde Pitágoras, com o
+triângulo de catetos de medidas 3 e 4 e hipotenusa igual a 5.</para>
+    </section>
+    <section id="cid3">
+      <title>Teoria da informação</title>
+      <para id="id2253789">Hollerith, o fundador da IBM, foi quem automatizou as atividades de Censo nos
+Estados Unidos.</para>
+      <para id="id2253794">Shannon utilizou o conceito de entropia para elaborar a teoria de comunicação.</para>
+    </section>
+  </content>
+</document>

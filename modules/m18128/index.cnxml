@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>O que é programar</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>485d03d3-c80f-4534-9341-bd1fc0ef0ec6</md:uuid>
+</metadata>
+  <content>
+    <para id="id2253696">Uma tarefa usual para muitos é contabilizar a receita e as despesas do
+mês. Pode-se fazê-la com lápis e papel à mão; pode-se
+também utilizar uma planilha eletrônica, como o MS Excel; pode-se,
+caso nenhuma das situações anteriores lhe satisfaça, criar seu
+próprio programa.</para>
+    <para id="id2253709">Mas como se fabrica um programa? Que tipo de ferramental se usa para montar um?</para>
+    <para id="id2253714">Há dois itens necessários, mas não suficientes, para se montar um
+programa: a noção de algoritmos e o conhecimento de uma linguagem de programação.</para>
+    <para id="id2253722">Ambos os itens são abordados neste curso e espera-se que o <emphasis>modus
+operandi</emphasis> do desenvolvimento de um programa seja ao menos entendido.</para>
+    <para id="id2253738">Inicialmente é feita uma apresentação dos fundamentos da
+informática, onde o conceito de algoritmo é preponderante.</para>
+    <para id="id2253745">O algoritmo consiste em um conjunto de procedimentos que devem ser realizados
+em uma certa ordem para se obter um certo resultado. Uma definição
+mais formal é apresentada em outra página, seguida de vários exemplos.</para>
+    <para id="id2253756">Um algoritmo voltado para o computador se concretiza ao escrevê-lo em
+alguma linguagem de programação.</para>
+    <para id="id2253763">Há várias delas no mundo, nas mais variadas formas e tecnologias.
+Todas servem para fabricar um programa. Esta é a resposta para o que foi
+indagado acima.</para>
+    <para id="id2253771">Neste curso adota-se a linguagem Python, idealizada pelo holandês Guido
+Van Rossum. A razão da escolha é pelo fato da linguagem possuir uma
+curva de aprendizagem muito rápida
+<m:math><m:mo>&lt;</m:mo></m:math>http://www.artima.com/intv/prodperfP.html<m:math><m:mo>&gt;</m:mo></m:math>.</para>
+  </content>
+</document>

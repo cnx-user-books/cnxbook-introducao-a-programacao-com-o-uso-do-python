@@ -1,0 +1,218 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Linguagem Python</title>
+  <metadata>
+  <md:content-id>m19596</md:content-id><md:title>Linguagem Python</md:title>
+  <md:abstract>Introduzimos algumas características da linguagem Python.</md:abstract>
+  <md:uuid>77ddd043-e563-44bf-92f4-26b09c4b3aac</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>origem do Python</title>
+      <para id="id2258269">Python é uma linguagem de programação criada por <emphasis effect="bold">Guido van
+Rossum</emphasis> na <emphasis effect="italics">Stichting Mathematisch Centrum</emphasis> (Holanda) na década de
+90 do século XX. Seu nome é uma homenagem ao grupo <emphasis effect="italics">Monty
+Python</emphasis>, responsável pela criação do programa de TV <emphasis effect="italics">Monty
+Python` Flying Circus</emphasis> e dos filmes “A Vida de
+Brian” (<emphasis effect="italics">Life of Brian</emphasis>) e “O
+Sentido da Vida” (<emphasis effect="italics">The Meaning of Life</emphasis>). Em
+inglês, a palavra <emphasis effect="italics">python</emphasis> significa “piton”, uma cobra que vive em florestas tropicais e que
+costuma atacar suas vítimas estrangulando os seus corpos. Daí a
+razão do atual símbolo.</para>
+      <figure id="uid1">
+        <media id="uid1_media" alt="">
+          <image mime-type="image/png" src="../../media/pythonsymbol.png" id="uid1_onlineimage" width="141"><!-- NOTE: attribute width changes image size online (pixels). original width is 141. --></image>
+          <image for="pdf" mime-type="application/postscript" src="../../media/pythonsymbol.eps" id="uid1_printimage" print-width="0.50">
+<!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+          </image>
+        </media>
+        <caption>logotipo do Python</caption>
+      </figure>
+      <para id="id2258981">Essencialmente, é uma linguagem orientada a objetos e interpretada, mas
+há meios de criar versões compiladas dos programas escritos em Python.</para>
+    </section>
+    <section id="cid2">
+      <title>palavras reservadas, operadores e números</title>
+      <section id="uid2">
+        <title>palavras-chaves ou palavras reservadas</title>
+        <para id="id2259009">Toda linguagem possui seu conjunto de palavras reservadas, <emphasis effect="italics">i.e.</emphasis>,
+palavras que representam comandos ou condições dentro de um algoritmo
+e que não podem ser utilizadas em nenhum outro contexto dentro do
+programa, sob pena deste último não funcionar devidamente.</para>
+        <para id="id2259026">No caso do Python, as palavras reservadas são 29 ao todo, a saber:</para>
+        <table id="id2259031" summary="">
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>
+                  <code display="inline">and</code>
+                </entry>
+                <entry>
+                  <code display="inline">assert</code>
+                </entry>
+                <entry>
+                  <code display="inline">break</code>
+                </entry>
+                <entry>
+                  <code display="inline">class</code>
+                </entry>
+                <entry>
+                  <code display="inline">continue</code>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <code display="inline">def</code>
+                </entry>
+                <entry>
+                  <code display="inline">del</code>
+                </entry>
+                <entry>
+                  <code display="inline">elif</code>
+                </entry>
+                <entry>
+                  <code display="inline">else</code>
+                </entry>
+                <entry>
+                  <code display="inline">except</code>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <code display="inline">exec</code>
+                </entry>
+                <entry>
+                  <code display="inline">finally</code>
+                </entry>
+                <entry>
+                  <code display="inline">for</code>
+                </entry>
+                <entry>
+                  <code display="inline">from</code>
+                </entry>
+                <entry>
+                  <code display="inline">global</code>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <code display="inline">if</code>
+                </entry>
+                <entry>
+                  <code display="inline">import</code>
+                </entry>
+                <entry>
+                  <code display="inline">in</code>
+                </entry>
+                <entry>
+                  <code display="inline">is</code>
+                </entry>
+                <entry>
+                  <code display="inline">lambda</code>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <code display="inline">not</code>
+                </entry>
+                <entry>
+                  <code display="inline">or</code>
+                </entry>
+                <entry>
+                  <code display="inline">pass</code>
+                </entry>
+                <entry>
+                  <code display="inline">print</code>
+                </entry>
+                <entry>
+                  <code display="inline">raise</code>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <code display="inline">return</code>
+                </entry>
+                <entry>
+                  <code display="inline">try</code>
+                </entry>
+                <entry>
+                  <code display="inline">while</code>
+                </entry>
+                <entry>
+                  <code display="inline">yield</code>
+                </entry>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="uid3">
+        <title>operadores</title>
+        <para id="id2259297">Há símbolos que representam operações aritméticas ou,
+dependendo do contexto, operações entre caracteres. São os
+chamados operadores:</para>
+        <list id="id2259305" display="block" list-type="bulleted">
+          <item id="uid4">+
+
+<list id="id2259322" display="block" list-type="labeled-item"><item id="uid5"> 
+pode ser a soma de dois ou mais números, como <code display="inline">2+3+7</code>, ou a junção de duas ou mais palavras (ou <emphasis effect="italics">strings</emphasis>, como
+será visto posteriomente), tal como <code display="inline">“eter”+“na”+“mente”</code>, o que resulta em
+<code display="inline">“eternamente”</code>;
+</item></list></item>
+          <item id="uid6">
+            <code display="inline">-</code>
+            <list id="id2259388" display="block" list-type="labeled-item">
+              <item id="uid7">em geral, representa a subtração de dois números, como
+<code display="inline">7-3</code>; também funciona como operador de troca de sinal, tal qual em
+<code display="inline">-(3)</code> ou em <code display="inline">-(-3)</code>, os quais resultam respectivamente em
+<code display="inline">-3</code> e <code display="inline">3</code>;
+</item>
+            </list>
+          </item>
+          <item id="uid8">*
+
+<list id="id2259450" display="block" list-type="labeled-item"><item id="uid9">é a multiplicação de dois ou mais números, como
+<code display="inline">2*8*1</code>; também funciona como multiplicador de <emphasis effect="italics">strings</emphasis>; ou
+seja, <code display="inline">3*“ah”</code> resulta em
+<code display="inline">“ahahah”</code>;
+</item></list></item>
+          <item id="uid10">/ 
+
+<list id="id2259506" display="block" list-type="labeled-item"><item id="uid11">representa a divisão de dois números, como <code display="inline">10/2</code> ou
+<code display="inline">5/2</code>, mas cuidado com os resultados, pois o último é dado como
+<code display="inline">2</code>, e não como <code display="inline">2.5</code>; para se obter o resultado com as
+frações decimais, é preciso reescrever a expressão da
+divisão como <code display="inline">5./2</code>, onde pelo menos o dividendo é representado
+como um número em ponto flutuante, como será visto a seguir;
+</item></list></item>
+          <item id="uid12">% 
+
+<list id="id2259575" display="block" list-type="labeled-item"><item id="uid13">este operador denomina-se operador módulo e seu resultado é o
+resto da divisão entre os operandos; por exemplo, <code display="inline">5%2</code> tem como
+resultado o valor de <code display="inline">1</code>;
+</item></list></item>
+          <item id="uid14">**
+
+<list id="id2259620" display="block" list-type="labeled-item"><item id="uid15">representa a operação de potenciação, ou seja, dado
+<emphasis effect="italics">a<sup>b</sup></emphasis>, em Python se escreve <code display="inline">a**b</code>.
+</item></list></item>
+        </list>
+      </section>
+      <section id="uid16">
+        <title>representações de números</title>
+        <para id="id2258211">Os números na linguagem Python podem ser inteiros, reais ou complexos.
+Isto tem a ver com a forma como são armazenados tais números na
+memória do computador, como já se comentou em seção anterior.</para>
+        <para id="id2258222">Os inteiros podem ser positivos ou negativos:</para>
+        <para id="id2259929"><code display="inline">-1000,...,-3,-2,-1,0,1,2,3,...,1000</code>.</para>
+        <para id="id2259938">Os reais também são denominados números de ponto flutuante:</para>
+        <para id="id2259944"><code display="inline">3.2,-1.234,3.1415926,5.0,10.,-9000.0</code>.</para>
+        <para id="id2259953">Os números complexos são escritos na forma <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>j</m:mo></m:mrow></m:math>, onde <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow></m:math>
+são números reais:</para>
+        <code id="id2259988" display="block">1+2j, -1.+3j, -1.-3j, 0+4.5j.
+</code>
+      </section>
+    </section>
+  </content>
+</document>

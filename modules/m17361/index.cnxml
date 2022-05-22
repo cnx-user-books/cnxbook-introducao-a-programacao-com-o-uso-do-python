@@ -1,0 +1,360 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Notação binária</title>
+  <metadata>
+  <md:content-id>m17361</md:content-id><md:title>Notação binária</md:title>
+  <md:abstract>O texto apresenta a notação binária para escrever números.</md:abstract>
+  <md:uuid>a898b2ad-3158-4573-a015-d4a852f87364</md:uuid>
+</metadata>
+  <content>
+    <para id="id2253696">Pelo fato do ser humano possuir cinco dedos em cada uma de suas duas mãos,
+é natural que a contagem se baseie no número dez, ou seja, adota-se a
+base decimal
+. O mais difícil de explicar é porque
+fisiologicamente formaram-se cinco dedos em cada extremidade e não
+três, quatro ou dois.</para>
+    <para id="id2253718">O computador, a calculadora e equipamentos eletrônicos em geral têm
+à mão de mais básico o fato de possuírem corrente
+elétrica, ou seja, há dois estados
+ simples possíveis:</para>
+    <list id="id2253732" list-type="bulleted">
+      <item id="uid1">há corrente;
+</item>
+      <item id="uid2">não há corrente.
+</item>
+    </list>
+    <para id="id2253757">Assim, em vez de dez em dez, estes equipamentos podem utilizar a contagem de
+dois em dois, ou seja, utilizar a base binária
+.</para>
+    <para id="id2253768">Para contar de dez em dez, utiliza-se os numerais <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow></m:math>.</para>
+    <para id="id2253825">Para contar de dois em dois, convencionou-se utilizar os numerais <m:math><m:mn mathvariant="bold">0</m:mn></m:math>
+e <m:math><m:mn mathvariant="bold">1</m:mn></m:math>.</para>
+    <para id="id2253852">Perceba que, quando se realiza somas na base decimal, segue-se o seguinte
+método: caso a soma em uma coluna atinja ou ultrapassa o valor de dez,
+acrescenta-se na coluna seguinte à esquerda um valor correspondente ao
+número de grupos de dez obtidos. Apesar de parecer complicada a
+explicação, o método já está incorporado em qualquer
+criança que esteja no ensino fundamental: é o famoso “vai um” ou dois, ou três, ...</para>
+    <para id="id2253867">O mesmo método é válido no caso da notação binária,
+só que com outros valores: caso a soma da coluna atinja ou ultrapasse o
+valor de dois, acrescenta-se na coluna adjacente à esquerda o número
+de grupos de dois obtidos. Veja os resultados abaixo na notação binária:</para>
+    <equation id="id2253879">
+      <m:math mode="display">
+        <m:mtable displaystyle="true">
+          <m:mtr>
+            <m:mtd columnalign="right">
+              <m:mrow>
+                <m:mn mathvariant="bold">0</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn mathvariant="bold">0</m:mn>
+              </m:mrow>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:mo>=</m:mo>
+                <m:mn mathvariant="bold">0</m:mn>
+                <m:mo>,</m:mo>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd columnalign="right">
+              <m:mrow>
+                <m:mn mathvariant="bold">1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn mathvariant="bold">0</m:mn>
+              </m:mrow>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:mo>=</m:mo>
+                <m:mn mathvariant="bold">0</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn mathvariant="bold">1</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn mathvariant="bold">1</m:mn>
+                <m:mo>,</m:mo>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd columnalign="right">
+              <m:mrow>
+                <m:mn mathvariant="bold">1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn mathvariant="bold">1</m:mn>
+              </m:mrow>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:mo>=</m:mo>
+                <m:mn mathvariant="bold">10</m:mn>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+        </m:mtable>
+      </m:math>
+    </equation>
+    <para id="id2253990">Veja que <m:math><m:mn mathvariant="bold">10</m:mn></m:math> corresponde ao valor 2 na base decimal.</para>
+    <section id="cid1">
+      <title>conversões</title>
+      <para id="id2254011">Qual é o procedimento para converter um número escrito na base
+binária para a base decimal? Como saber que <m:math><m:mn mathvariant="bold">11010</m:mn></m:math> na base
+binária é o 26 na base decimal? Será adotada a notação
+abaixo para o que se indagou agora:</para>
+      <equation id="id2254033">
+        <m:math mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mfenced open="" close="|">
+                <m:mn>11010</m:mn>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:msub>
+              <m:mfenced open="" close="|">
+                <m:mn>26</m:mn>
+              </m:mfenced>
+              <m:mn>10</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id2254071">Inicialmente, considere um certo número decimal; por exemplo, 2174.
+Perceba que ele pode ser decomposto da seguinte forma:</para>
+      <equation id="id2254078">
+        <m:math mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mn>2174</m:mn>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mn>2000</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>100</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>70</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1000</m:mn>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>100</m:mn>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>7</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>4</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>7</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>1</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>4</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>0</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id2254519">Lembre-se que</para>
+      <equation id="id2254525">
+        <m:math mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>10</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>0</m:mn>
+                </m:msup>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id2254584">Assim, um número decimal é formado pelos coeficientes da
+decomposição em potências de 10. Conclui-se, por analogia, que
+um número binário é formado pelos coeficientes da
+decomposição em potências de 2:</para>
+      <equation id="id2254594">
+        <m:math mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mfenced open="" close="|">
+                    <m:mn>11010</m:mn>
+                  </m:mfenced>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>0</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>1</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                  <m:mo>+</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mn>0</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>0</m:mn>
+                    </m:msup>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mn>16</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mn>26</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+    </section>
+  </content>
+</document>

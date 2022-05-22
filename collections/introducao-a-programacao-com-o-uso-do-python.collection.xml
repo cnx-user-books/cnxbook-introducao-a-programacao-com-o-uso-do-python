@@ -1,0 +1,26 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="pt-br">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10564</md:content-id>
+    <md:title>Introdução à programação com o uso do Python</md:title>
+    <md:language>pt-br</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>dac3c08e-f450-417e-be86-f9f5b81bdd32</md:uuid>
+<md:slug>introducao-a-programacao-com-o-uso-do-python</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Conceitos</md:title>
+      <col:content>
+        <col:module document="m18128"/>
+        <col:module document="m17311"/>
+        <col:module document="m17361"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Programação</md:title>
+      <col:content>
+        <col:module document="m19596"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
